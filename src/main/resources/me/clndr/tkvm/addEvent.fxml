@@ -2,7 +2,6 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.DatePicker?>
-<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
@@ -10,9 +9,9 @@
     <children>
         <DatePicker fx:id="datePicker" layoutX="50.0" layoutY="30.0" prefWidth="200.0" />
         <TextField fx:id="timeField" layoutX="50.0" layoutY="70.0" prefWidth="200.0" promptText="Saat girin (HH:mm)" />
-        <TextField fx:id="input1Field" layoutX="50.0" layoutY="110.0" prefWidth="300.0" promptText="Input 1" />
-        <TextField fx:id="input2Field" layoutX="50.0" layoutY="140.0" prefWidth="300.0" promptText="Input 2" />
-        <TextField fx:id="input3Field" layoutX="50.0" layoutY="170.0" prefWidth="300.0" promptText="Input 3" />
+        <TextField fx:id="input1Field" layoutX="50.0" layoutY="110.0" prefWidth="300.0" promptText="Olayın Tanımlanması" />
+        <TextField fx:id="input2Field" layoutX="50.0" layoutY="140.0" prefWidth="300.0" promptText="Olayın Tipi" />
+        <TextField fx:id="input3Field" layoutX="50.0" layoutY="170.0" prefWidth="300.0" promptText="Olayın Açıklaması" />
         <Button layoutX="50.0" layoutY="210.0" mnemonicParsing="false" onAction="#saveEventButtonClicked" text="Kaydet" />
     </children>
 </AnchorPane>

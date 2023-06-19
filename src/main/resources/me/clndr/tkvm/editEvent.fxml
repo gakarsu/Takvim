@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.clndr.tkvm.EditEventController">
+    <Label text="Olay Düzenle" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+    <TextField fx:id="operationTimeTextField" promptText="İşlem Zamanı" />
+    <TextField fx:id="eventStartTimeTextField" promptText="Olay Başlangıç Zamanı" />
+    <TextField fx:id="eventDefinitionTextField" promptText="Olay Tanımı" />
+    <TextField fx:id="eventTypeTextField" promptText="Olay Türü" />
+    <TextField fx:id="eventDescriptionTextField" promptText="Olay Açıklaması" />
+    <Button text="Kaydet" onAction="#saveButtonClicked" />
+</VBox>
